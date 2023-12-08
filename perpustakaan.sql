@@ -26,3 +26,5 @@ ALTER TABLE `users`
 
 ALTER TABLE `useradmin`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+INSERT INTO `useradmin`(`id`, `username`, `password`) VALUES ('1','admin','admin');
